@@ -8,7 +8,7 @@ FIG-Canada is a model for forecasting and investigating embodied emissions from 
 -where to get data and potentially post modified data to Zenodo
 
 ## Model
--explain model files post ipynb files showing examples of how to run
+The model/fig_package folder contains the main utilities used to run FIG. `helper.py` contains miscellaneous utils. `project_starts.py` returns projected housing starts for Canada. The `fig_sample` folder contains all of the functions for generating new/future neighbourhood layouts using monte carlo simulation. `forecast.py` contains generic functions for forecasting a future year's construction.
 
 ## Projections
 -projecting starts and mat changes
