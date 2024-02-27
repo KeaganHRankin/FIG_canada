@@ -1,0 +1,33 @@
+HOUSES
+-Canada's geographic census boundaries: https://www12.statcan.gc.ca/census-recensement/2021/geo/sip-pis/boundary-limites/index2021-eng.cfm?year=21
+-Canada's census of the population, including types of housing and population in each DA: https://www.recensement.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=35200074%20&GENDERlist=1,2,3&STATISTIClist=1&DGUIDlist=2021A00053520005&HEADERlist=0 
+-Embodied emission data for different housing forms, and emission factor database: https://doi.org/10.5281/zenodo.7850125
+-House data was split by DA using Canadian geographic census boundaries in ArcGIS
+
+ROADS
+-Canada's national road network: https://nrn-rrn.readthedocs.io/en/latest/source/en/index.html
+-Additional emission factors and road material quantification procedure derived from SI: https://doi.org/10.1021/acs.est.2c05255
+Required Files from SHP -> ROADSEG.shp, save JUNCTION.shp in case someone wanted to do later traffic analysis.
+Required Rows from attribute table -> 
+[[NID, PAVSURF, ROADJURIS, UNPAVSURF, STRUCTYPE, 
+ROADCLASS, STRUCTID, PAVSTATUS, ACCURACY, NBRLANES]]
+
+-Road data was split by DA using Canadian geographic census boundaries in ArcGIS
+
+WATER
+
+-Water data was split by DA using Canadian geographic census boundaries in ArcGIS
+Water data for the machine learning model came from the following sources; 
+we did significant cleaning on raw data:
+	-Open Data Kingston. Storm Pipe. https://opendatakingston.cityofkingston.ca/explore/dataset/storm-pipe/table/?location=13,44.23764,-76.50304&basemap=72525b (2023).
+	-City of Windsor Open Data Catalogue. Sewers & Manholes. https://opendata.citywindsor.ca/details/213 (2023).
+	-Open Data City of Waterloo. Water Distribution Mains. https://open-kitchenergis.opendata.arcgis.com/datasets/City-of-Waterloo::water-distribution-mains/about (2020).
+	-Kitchener Geohub. Water Mains. https://open-kitchenergis.opendata.arcgis.com/datasets/KitchenerGIS::water-mains/about (2023).
+	-City of Oshawa Open Data. Works - Water Distribution System - Water Main. https://city-oshawa.opendata.arcgis.com/datasets/DurhamRegion::works-water-distribution-system-water-main/about (2022).
+	-City of London Open Data. Catch Basins. https://opendata.london.ca/datasets/7f2f5ed6f5dd4fba98ad07b34de148bc_5/about (2019).
+	-City of Brampton. Catch Basins. https://geohub.brampton.ca/datasets/brampton::catch-basins/about (2023).
+	-City of Mississauga. Storm Sewer Network - Storm Pipes. https://data.mississauga.ca/datasets/mississauga::storm-sewer-network-storm-pipes/about (2023).
+
+FUTURE HOUSING STARTS
+-CMHC future housing starts (further explanation in SI of paper): https://www.cmhc-schl.gc.ca/blog/2022/canadas-housing-supply-shortage-restoring-affordability-2030
+
