@@ -30,4 +30,4 @@ we did significant cleaning on raw data:
 
 FUTURE HOUSING STARTS
 -CMHC future housing starts (further explanation in SI of paper): https://www.cmhc-schl.gc.ca/blog/2022/canadas-housing-supply-shortage-restoring-affordability-2030
-
+-Canadian population growth projections post 2030: https://doi.org/10.25318/1710005701-eng
